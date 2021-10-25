@@ -33,4 +33,5 @@ def api():
     return flask.jsonify(data)
 
 
-app.run(port=8681)
+if __name__ == '__main__':
+    app.run()
