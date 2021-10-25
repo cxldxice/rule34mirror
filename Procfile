@@ -1,1 +1,1 @@
-web: python run_server.py 8681
+web: python app.py 8681
